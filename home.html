@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mihael Varga</title>
+    <link rel="shortcut icon" type="image/x-icon" href="slike/favicon.ico">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="slika">
+                <a href="home.html" title="Posjetite početnu stranicu">
+                    <img src="slike/MV.png" alt="Logo Mihael">
+                    <p>Mihael Varga</p>
+                  </a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home </a></li>
+                    <li><a href="">Astronomija</a></li>
+                    <li><a href="">Fizika</a></li>
+                    <li><a href="">Web aplikacije</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+            <h1>Dobro došli <br>
+            Osobna web stranica - Mihael Varga</h1>
+            <p>Ovdje možete vidjeti moj životopis i sve dosadašnje radove <br> u području fizike, astronomije i web-programiranja</p>
+            <a href="#about" class="hero-btn"> O meni </a>
+    </div>
+
+    </section>
+
+    <section class="naslov">
+        <h1>Životopis</h1>
+    </section>
+
+    <div class="main">
+        <div class="left"></div>
+        <br>
+        <div class="slika"><img src="slike/ja.jpg" alt="Profilna"></div>
+
+        <div class="box1">
+            <div class="podaci">
+                <h2>Osobni podaci</h2>
+                <p>Ime i prezime: Mihael Varga</p>
+                <p>Adresa: Miklavec 146</p>
+                <p>Email: <span id="email" data-clipboard-text="mihael.varga2@skole.hr" title="Kopiraj email" style="color: blue; text-decoration: underline;">mihael.varga2@skole.hr</span></p>
+                <p>Telefon: (+385) 917884182 </p> 
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <section id="about" class="grid-container">
+        <div class="left-column">
+            <img src="slike/ja.jpg" alt="Profilna">
+            <h2>Osobni podaci</h2>
+            <p>Ime i prezime: Mihael Varga</p>
+            <p>Adresa: Miklavec 146</p>
+            <p>Email: <span id="email" data-clipboard-text="mihael.varga2@skole.hr" title="Kopiraj email" style="color: blue; text-decoration: underline;">mihael.varga2@skole.hr</span></p>
+            <p>Telefon: (+385) 917884182 </p> 
+        </div>
+        <div class="right-column">
+            <div>
+                <h2>Obrazovanje i osposobljavanje</h2>
+            <ul>
+                <li>
+                    <h3>MAGISTAR FIZIKE</h3>
+					<p>Prirodoslovno-matematički fakultet, Fizički odsjek. Bijenička cesta , 32, Zagreb, Hrvatska</p>
+					<p>01/10/2005 – 04/07/2012</p>
+                </li>
+                <li>
+                    <h3>PEDAGOŠKO-PSIHOLOŠKA I DIDAKTIČKO-METODIČKA NAOBRAZBA</h3>
+					<p>Učiteljski fakultet u Osijeku. Cara Hadrijana 10, Osijek, Hrvatska</p>
+					<p>01/09/2012 – 04/04/2013</p>
+                </li>
+                <li>
+                    <h3>WEB PROGRAMIRANJE</h3>
+					<p>Pučko otvoreno učilište Čakovec. Kralja Tomislava 52, Čakovec, Hrvatska</p>
+					<p>10/10/2022 – 07/03/2023</p>
+                </li>
+            </ul>
+            </div>
+            <div>
+                <h2>Radno iskustvo</h2>
+                <ul>
+                  <li>Pozicija u tvrtki / organizaciji</li>
+                  <li>Opis posla i odgovornosti</li>
+                  <li>Godina početka i završetka rada</li>
+                </ul>
+              </div>
+              <div>
+                <h2>Vještine</h2>
+                <ul>
+                  <li>Vještina 1</li>
+                  <li>Vještina 2</li>
+                  <li>Vještina 3</li>
+                </ul>
+              </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="profil" id="about">
+        
+        <h1>Životopis</h1>
+
+        <img src="slike/ja.jpg" alt="">
+        <div>
+            <h2>Osobni podaci</h2>
+            <p>Ime i prezime: Mihael Varga</p>
+            <p>Adresa: Miklavec 146</p>
+            <p>Email: <span id="email" data-clipboard-text="mihael.varga2@skole.hr" title="Kopiraj email" style="color: blue; text-decoration: underline;">mihael.varga2@skole.hr</span></p>
+            <p>Telefon: (+385) 917884182 </p> 
+        </div >
+        <div class="school">
+            <h2>Obrazovanje i osposobljavanje</h2>
+            <ul>
+                <li>
+                    <h3>MAGISTAR FIZIKE</h3>
+					<p>Prirodoslovno-matematički fakultet, Fizički odsjek. Bijenička cesta , 32, Zagreb, Hrvatska</p>
+					<p>01/10/2005 – 04/07/2012</p>
+                </li>
+                <li>
+                    <h3>PEDAGOŠKO-PSIHOLOŠKA I DIDAKTIČKO-METODIČKA NAOBRAZBA</h3>
+					<p>Učiteljski fakultet u Osijeku. Cara Hadrijana 10, Osijek, Hrvatska</p>
+					<p>01/09/2012 – 04/04/2013</p>
+                </li>
+                <li>
+                    <h3>WEB PROGRAMIRANJE</h3>
+					<p>Pučko otvoreno učilište Čakovec. Kralja Tomislava 52, Čakovec, Hrvatska</p>
+					<p>10/10/2022 – 07/03/2023</p>
+                </li>
+            </ul>
+        </div>
+    </section> -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right ="0";
+        }
+        function hideMenu() {
+            navLinks.style.right= "-200px";
+        }
+
+        const emailSpan = document.querySelector('#email');
+        emailSpan.addEventListener('click', function() {
+        navigator.clipboard.writeText(this.getAttribute('data-clipboard-text')).then(() => {
+        alert('E-pošta je kopirana u međuspremnik!');
+              }, function() {
+              alert('Kopiranje nije uspjelo!');
+              });
+            });
+
+    </script>
+</body>
+</html>

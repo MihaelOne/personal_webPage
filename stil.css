@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+}
+* ul {
+    list-style: none;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(slike/fizika.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+  
+nav {
+    display: inline;
+    padding: 2% 6%;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.slika {
+    display: inline;
+    width: 150px;
+}
+.slika img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+nav p{
+    font-size: 20px;
+    padding-top: 5px;
+    width: 125px;
+    color: aliceblue;
+    padding-left: 70px;
+}
+nav a {
+    /* width: 180px;
+    flex-direction: column;
+    align-items: flex-start; */
+    font-size: 24px;
+}
+nav a[title]::after {
+    content: attr(title);
+    display: none;
+    position: absolute;
+    background-color: rgb(98, 167, 206);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  nav a:hover[title]::after {
+    display: block;
+  }
+  
+.nav-links {
+    
+    text-align: right;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #9fc826;
+    display: block;
+    margin: auto;
+    transition: width 0.3s ease-in-out;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box {
+    width: 90%;
+    color: #b7c729;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 50px;
+}
+.text-box h1{
+    font-size: 63px;
+    text-shadow: 3px 3px 4px #fff;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    line-height: 1;
+}
+.text-box p{
+    font-size: 24px;
+    color:  #b7c729;
+    margin: 10px 0 40px;
+    text-shadow: 1px 1px 1px #fff;
+    padding-bottom: 8px;
+    line-height: 1.5;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    opacity: 0.8;
+    background: grey;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid rgb(169, 104, 31);
+    background: yellowgreen;
+    transition: 1s;
+}
+nav .fa {
+    display: none;
+}
+@media(max-width:700px){
+    .text-box h1{
+        font-size: 24px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    .text-box p{
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #b7c729;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa {
+        display: block;
+        color: aliceblue;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+#email {
+    cursor: pointer;
+}
+/* .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+.naslov h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 2px solid blue;
+}
+  
+  .left-column {
+    margin: 0 auto;
+    grid-column: 1 / 2;
+    width: 40%;
+    /* padding-top: 100px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+  } */
+  .left-column img{
+    width: 200px;
+    display: block;
+    margin-right: 35px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+
+  .left-column h2,p {
+    text-align: center;
+  }
+  
+  .right-column {
+    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  
+  .right-column div {
+    border: 1px solid black;
+    padding: 10px;
+  } */
+  
+
+ /* .profil{
+    width: 80%;
+    text-align: center;
+    padding-top: 100px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+.profil img{
+    width: 300px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.profil h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.school {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.school ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}  */

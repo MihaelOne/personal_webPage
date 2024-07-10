@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mihael Varga</title>
+    <link rel="shortcut icon" type="image/x-icon" href="slike/favicon.ico" />
+    <link rel="stylesheet" href="stil1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section11">
+      <div class="nav">
+        <div class="lijevo">
+          <a href="home1.html" title="Posjetite početnu stranicu">
+            <img src="slike/MV.png" alt="Logo Mihael" />
+            <p>Mihael Varga</p>
+          </a>
+        </div>
+        <div class="desno" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home1.html">Home </a></li>
+            <li><a href="astronomija.html">Astronomija</a></li>
+            <li><a href="">Fizika</a></li>
+            <li><a href="webshop/view/webshop.php">Web aplikacije</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </div>
+
+      <div class="text-box">
+        <h1>Astronomija</h1>
+        <p>
+          Tokom svog proučavanja astronomije i kozmologije napravio sam nekoliko
+          enciklopedijskih tekstova o Svemiru i svemu vezanim uz svemir. Neki
+          odlomci ovdje su prikazani.
+        </p>
+        <a href="#odlomci" class="hero-btn"> Odlomci </a>
+      </div>
+    </section>
+
+    <section class="section22" id="odlomci">
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-title" onclick="toggleAccordion(this)">
+            Kako su nastali kemijski elementi - nukleosinteza
+          </div>
+          <div class="accordion-content">
+            <h3 style="color: red">VELIKI PRASAK</h3>
+            <img src="slike/Slika1.jpg" alt="img1" />
+            <img src="slike/Slika2.jpg" alt="" />
+            <p>
+              Nukleosinteza – sinteza kemijskih elemenata <br />
+              Veliki prasak – prije 13.7 milijardi godina <br />
+              Nastanak protona i neutrona: <br />
+              10<sup>-5</sup> sekundi (temperatura 1013 K) nakon Velikog praska
+              protoni i neutroni nastaju iz kvarkovsko-gluonske plazme <br />
+              Elektroni i neutrini postoje tad kao zračenje <br />
+              Dok temperatura ne padne bitno ispod 10<sup>11</sup> K protoni i
+              neutroni slobodno prelaze jedni u druge, pa ih ima isti broj.
+              <br />
+              Daljnjim ohlađivanjem svemira proces pretvorbe težih neutrona u
+              lakše protone prevladava nad obratnim procesom. <br />
+              Međusobni omjer neutrona i protona postaje 38% prema 62% u korist
+              protona (1 s). <br />
+            </p>
+            <img src="slike/Slika3.gif" alt="" />
+            <p>
+              Sinteza započinje (nakon 3 minute, T= 10<sup>9</sup> K) stvaranjem
+              deutrona – jezgra deuterija (D ili <sup>2</sup>H) <br />
+              → temperatura (termičko gibanje) više ne može nadvladati nuklearno
+              privlačenje protona i neutrona u deutron. <br />
+              Fotoni (10<sup>9</sup> na svaki nukleon) trenutno razbijaju
+              nastale deutrone.
+            </p>
+            <img src="slike/Slika4.jpg" alt="" />
+            <h3 style="color: red">PRIMORDIJALNA (PRVOTNA) NUKLEOSINTEZA</h3>
+            <p>
+              Opstanak deuterona postaje moguć tek na temperaturi T ≈ 108 K -
+              starosti Svemira 300 s. <br />
+              Jednom kada je stvoren deuteron, moguće je i stvaranje težih
+              jezgara.
+            </p>
+            <h3 style="color: red">PRIMORDIJALNA MATERIJA</h3>
+            <p>
+              1-3 minute nakon Velikog praska praktički svi neutroni završavaju
+              u najjače vezanoj jezgri helija <sup>4</sup>He <br />
+              Nepostojanje stabilnih izotopa s A = 5 i A = 8 sprečavaju nastanak
+              bitnijih količina izotopa težih od A= 4 <br />
+              Na kraju prisutni elementi:
+              <sup>4</sup>He, <sup>2</sup>H, <sup>3</sup>He i <sup>7</sup>Li
+              (jezgre <sup>3</sup>H i <sup>7</sup>Be su radioaktivne <br />
+              pa, iako prisutne na kraju prvobitne nukleosinteze, posve nestaju
+              prije nastanka prvih zvijezda).
+            </p>
+            <p>
+              Neke količine slabo vezanog deuterija preživjele vruću fazu
+              svemira. <br />
+              Kasnije ne postoji astrofizički scenarij koji bi proizveo
+              deuterij. <br />
+              Jezgre <sup>4</sup>He najjače je vezana laka jezgra, pa se ona ne
+              razbija ni u ranom svemiru ni u zvijezdama; ona nestaje samo
+              fuzijom u teže jezgre. <br />
+              <sup>7</sup>Be je radioaktivan i vrlo brzo se raspada i pretvara u
+              <sup>7</sup>Li. <br />
+              ‘’Problemu primordijalnog litija’’: teorija predviđa i do 5 puta
+              veću količinu <sup>7</sup>Li nastalu u ranom svemiru, od onoga što
+              se mjeri – postoje različita rješenja koja treba provjeriti <br />
+              Također, modeli predviđaju da u ranom svemiru nastaje otprilike 20
+              puta manje <sup>6</sup>Li - rezultati astronomskih opažanja još
+              nisu dali pouzdanu eksperimentalnu procjenu njegove količine
+              nastale u ranom svemiru. <br />
+              Omjer helija i vodika nakon prvotne nukleosinteze: 25% naprema 75%
+              <br />
+            </p>
+            <img src="slike/Slika5.gif" style="width: 1000px" />
+            <p>
+              Formiranje neutralnih atoma: 300 tisuća godina od velikog praska
+              (T=3000-4000 K) - “rekombinacija” - sparivanje jezgri i elektrona
+              <br />
+              Svemir izlazi iz “neprozirne” faze – ‘’zarobljeni’’ elektroni 
+              <br />
+              Mračno doba svemira – svmir bez sjajnih objekata – od
+              rekombinacije do nastanka prvih zvijezda (10<sup>6</sup> -10<sup
+                >9</sup
+              >
+              godina nakon Velikog praska) <br />
+            </p>
+            <h3 style="color: orange">PRVE ZVIJEZDE</h3>
+            <p>
+              Sinteza elemenata nadalje u zvijezdama (ili njihovim eksplozijama)
+              <br />
+              Masivne prve zvijezde: 30M<sub>⊙</sub> - 300M<sub>⊙</sub> -
+              zvijezde populacije III <br />
+              Kratak život (~10<sup>6</sup> god) – eksplozije supernove –
+              izbacivanje elemenata u međuzvjezdani prostor
+            </p>
+            <img src="slike/Slika1.png" style="width: 700px" />
+            <p>
+              <span style="color: red"
+                >POPULACIJE ZVIJEZDA – udio metala u kemijskom sastavu
+                zvijezde</span
+              >
+              <br />
+              <span style="color: orange">Zvijezde populacije III:</span> velike
+              iščezle zvijezde koje su nastale u doba kada u svemiru nije bilo
+              metala. Metali su u njima stvoreni nuklearnim reakcijama i
+              raspršeni u svemir eksplozijama (puno željeza, malo ugljika).
+              <br /> 
+              <span style="color: orange">Zvijezde populacije II:</span> udio
+              metala 0,1%, smještene u galaktičkom halou. Zvijezde iz kuglastih
+              zvjezdanih skupova, crveni divovi. <br />
+              Starije zvijezde nastale u prvih milijardu godina postojanja
+              svemira, kada još nije bio oblikovan galaktički disk. <br />
+              <span style="color: orange">Zvijezde populacije I:</span> udio
+              metala 2 do 4%, mlade zvijezde smještene u spiralnim krakovima
+              galaktike, otvoreni zvjezdani skupovi.  Sunce se ubraja u starije
+              zvijezde te populacije. <br />
+              ...
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title" onclick="toggleAccordion(this)">
+            Otkrivanje i istraživanje novih svjetova
+          </div>
+          <div class="accordion-content" style="background-color: lightskyblue">
+            <p>
+              <span style="color: red">EKSTRASOLARNI PLANETI</span> <br />
+              Planeti koji orbitiraju izvan Sunčevog sustava oko neke druge
+              matične zvijezde <br />
+              Po građi mogu biti plinoviti ili kruti – sličnost s našim Sunčevim
+              sustavom. <br />
+              Plinoviti planeti mogu imati deset puta veću masu od Jupitera, a
+              kruti do pet puta manju od Zemlje <br />
+              <br />
+              <span style="color: red"
+                >EKSTRASOLARNI PLANETI NALIK ZEMLJI
+              </span>
+              <br />
+              Planeti u naseljivoj zoni ( eng. habitable zone) oko zvijezde –
+              područja u kojem se može održati tekuća voda <br />
+              Uvjeti za to: temperatura, postojanje atmosfere (atmosferski
+              tlak), gustoća atmosfere <br />
+              <br />
+              <span style="color: red">ŽIVOT NA EKSTRASOLARNIM PLANETIMA</span>
+              <br />
+              Da bi znali ako je planet kandidat da na njemu postoji život treba
+              poznavati sastav atmosfere tog planeta <br />
+              Postojanje kisika i stakleničkih plinova (ugljik dioksid, metan..)
+              u atmosferi ukazuje na moguć život na tom planetu <br />
+              <br />
+              <span style="color: red"
+                >PLANET NALIK ZEMLJI OKO ZVIJEZDE NAJBLIŽE SUNCU</span
+              >
+              <br />
+              <b>PROKSIMA CENTAURA</b> <br />
+              Zvijezda najbliža Suncu ili nama druga najbliža zvijezda <br />
+              Udaljena od nas 4.2 svjetlosne godine (2.5 milijuna puta
+              udaljenija od nas nego Sunce) <br />
+              Oko nje orbitira planet nalik Zemlji – najbliži ekstrasolarni
+              planet nalik Zemlji: Proxima b <br />
+              Razmatrajući karakteristike matične zvijezde (zračenje) i
+              poznavajući udaljenosti planeta od nje znanstvenici su dokazali da
+              se planet nalazi u ‘’naseljivoj zoni’’ <br />
+              Ispitivanje planeta iz blizine – cilj za sljedeća svemirska
+              putovanja <br />
+              <br />
+              <b style="color: darkgoldenrod"
+                >METODE OTKRIVANJA EKSTRASOLARNIH PLANETA</b
+              >
+              <br />
+            </p>
+
+            <p>
+              <span style="color: red">1. Astrometrija</span> <br />
+              Svaki planet i zvijezda rotiraju oko zajedničkog centra mase.
+              Promatra se ako postoji takvo kružno gibanje (rotacija) središta
+              zvijezde oko tog centra. Ako postoji takav pomak centra rotacije
+              oko zvijezde mora orbitirati planet.
+            </p>
+            <img src="slike/Slika1.gif" alt="" />
+            <p>
+              Takav planet je teško uočiti, ali može se odrediti masa planeta
+              (uz pomoć poznate mase zvijezde) <br />
+              Metoda zahtijeva duži period promatra
+            </p>
+            <br />
+            <p>
+              <span style="color: red"> 2. Detekcija radijalnom brzinom </span>
+              <br />
+              Promatraju se promjene u spektru boja svjetlosti zvijezde (valna
+              duljina svjetlosti) kad planet vizualno (sa Zemlje) prolazi preko
+              zvijezde. <br />
+              Plinovi u zvijezdama upijaju svjetlost određene valne duljine i
+              tako ostaju tamne linije u spektru boja sa zvijezde. <br />
+            </p>
+            <img src="slike/Slika5.jpg" alt="" />
+            <p>
+              Kad se takav izvor svjetlosti udaljava od nas uočava se pomak
+              tamnih linija prema crvenom (crveni pomak), a kad se približava
+              prema nama uočava se pomak prema plavom (plavi pomak) – Dopplerov
+              efekt
+            </p>
+            <p>
+              Prolazak planeta između zvijezde i Zemlje uzrokuje pomicanje
+              tamnih linja prema crvenome dijelu spektra, jer se zvijezda malo
+              udalji od nas.  <br />
+              Kada se zvijezda nađe između Zemlje i ekstrasolarnog planeta,
+              bilježimo pomak tamnih linija prema ljubičastom dijelu spektra,
+              jer se zvijezda malo približi. <br />
+              Može se odrediti samo minimalna masa ekstrasolarnog planeta.
+              <br />
+            </p>
+            <img src="slike/Slika3.png" alt="" />
+            <p>
+              <span style="color: red"> 3. Metoda tranzita</span> <br />
+              Dobra za određivanje promjera ekstrasolarnog planeta <br />
+              Kada ekstrasolarni planet prolazi između zvijezde i Zemlje,
+              bilježimo pad sjaja te zvijezde <br />
+              - potrebno promatranje van Zemljine atmosfere <br />
+              - planet mora prolazi točno između zvijezde i Zemlje <br />
+              Ova metoda daje najbolje i najpreciznije rezultate u kombinaciji s
+              metodom radijalne brzine <br />
+              → može se odrediti točna masa planeta, njegov promjer i izračunati
+              gustoća po kojoj zaključujemo kojoj vrsti planeta pripada. <br />
+            </p>
+            <img src="slike/Slika6.jpg" alt="" />
+            <p>
+              Samo je devet ekstrasolarnih planeta proučenih s obje metode i to
+              su najbolje proučeni planeti izvan Sunčeva sustava.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title" onclick="toggleAccordion(this)">
+            Naslov 3
+          </div>
+          <div class="accordion-content">Ovdje ide sadržaj odlomka 3.</div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title" onclick="toggleAccordion(this)">
+            Naslov 4
+          </div>
+          <div class="accordion-content">Ovdje ide sadržaj odlomka 4.</div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-title" onclick="toggleAccordion(this)">
+            Naslov 5
+          </div>
+          <div class="accordion-content">Ovdje ide sadržaj odlomka 5.</div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.display = "block";
+    }
+    function hideMenu() {
+      navLinks.style.display = "none";
+    }
+
+    const emailSpan = document.querySelector("#email");
+    emailSpan.addEventListener("click", function () {
+      navigator.clipboard
+        .writeText(this.getAttribute("data-clipboard-text"))
+        .then(
+          () => {
+            alert("E-pošta je kopirana u međuspremnik!");
+          },
+          function () {
+            alert("Kopiranje nije uspjelo!");
+          }
+        );
+    });
+
+    function toggleAccordion(title) {
+      var content = title.nextElementSibling;
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        title.style.backgroundColor = "lightblue";
+        title.style.color = "blue";
+      } else {
+        content.style.display = "none";
+      }
+    }
+  </script>
+</html>
