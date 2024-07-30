@@ -45,4 +45,4 @@ Feel free to explore and contribute!
 
 ---
 
-Ova verzija README datoteke sada dodaje opće funkcionalnosti koje su prisutne u većini web shopova, a istovremeno naglašava da SQL datoteke nisu uključene. Možete je dalje prilagoditi prema potrebama vašeg projekta ili specifičnim zahtjevima.
+This version of the README file now adds the general functionality that is present in most web shops, while emphasizing that SQL files are not included. You can further customize it according to the needs of your project or specific requirements.
