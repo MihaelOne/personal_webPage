@@ -38,6 +38,7 @@ To view the project locally:
 1. Clone this repository.
 2. Set up XAMPP and start Apache and MySQL services.
 3. To see peraonal web sirw open `home1.html` in your browser.
+   
 4.To see webshop, open directory webshop2, and then open index.php
 
 Feel free to explore and contribute!
